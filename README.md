@@ -3,7 +3,7 @@ Projekt o zápisu zákazníka a s ním spojeným počtem prodejů, do předmětu
 
 Funkce:
 
--Plná interakce se seznamem zákazníků a jejich počtem prodejů
+-Plná interakce se seznamem zákazníků a jejich počtem prodejů - Zákaznící jsou automaticky očíslováni
 
 -Možnost přidání, odebrání zákazníků
 
