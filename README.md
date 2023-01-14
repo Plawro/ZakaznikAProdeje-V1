@@ -19,3 +19,4 @@ Obsahuje příklady použití a poznámky ke každé metodě
 Jak vypadá spuštění příkladu v IntelliJ:
 
 ![Screenshot_9](https://user-images.githubusercontent.com/88940474/212467466-c978d2b5-c1ac-4ff1-9a50-6ad9bb9150f7.png)
+![Screenshot_10](https://user-images.githubusercontent.com/88940474/212467552-e7d2bb0c-725d-4a95-9354-d27021e2f923.png)
