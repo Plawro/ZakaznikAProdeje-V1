@@ -89,7 +89,7 @@ public class Main {
     private static void showList(List<Zakaznik> seznamZakazniku){
         int poradi = 0;
         System.out.println("--- Výpis z listu ---");
-        for(Zakaznik zakaznik : seznamZakazniku){
+        for(String zakaznik : printList){
             poradi++;
             System.out.println(poradi +") "+zakaznik);
         }
