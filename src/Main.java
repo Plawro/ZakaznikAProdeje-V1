@@ -82,9 +82,12 @@ public class Main {
         }
     }
 
-    private static void addToList(List<Zakaznik> seznamZakazniku, String jmeno, int pocetProdeju){
-        seznamZakazniku.add(new Zakaznik(jmeno,pocetProdeju));
-    }
+    private static void addToList(List<Zakaznik> seznamZakazniku, String jmeno, int pocetProdeju) throws Exception{
+        if(pocetProdeju > 0){
+            seznamZakazniku.add(new Zakaznik(jmeno,pocetProdeju));
+        } else{
+            throw new Exception("Počet musí být kladný, váš počet: "+pocetProdeju);
+        }
 
     private static void showList(List<Zakaznik> seznamZakazniku){
         int poradi = 0;
